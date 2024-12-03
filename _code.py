@@ -1,5 +1,4 @@
 import requests
-import math
 from collections import OrderedDict
 from pymongo import MongoClient
 from creds import MongoDB_username, MongoDB_password
