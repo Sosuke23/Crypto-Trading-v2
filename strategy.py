@@ -54,4 +54,3 @@ for key in data.keys():
 
 # Sorting using invested amount (Decreasing)
 sorted_investment = dict(sorted(investment.items(), key = lambda item: item[1], reverse = True))
-print(sorted_investment)
