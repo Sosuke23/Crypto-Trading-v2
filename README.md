@@ -1,5 +1,7 @@
 # Crypto Trading
 
+This project involves building a RESTful API using **FastAPI** to manage and query cryptocurrency data, providing real-time access to asset details and enabling automated investment allocation. The API implements an advanced investment strategy that combines market trends, momentum, and asset rankings to optimize portfolio distribution. **MongoDB Atlas** is integrated as a scalable database solution to store market trends, price changes, and calculated investment data, making the system efficient and robust for dynamic portfolio tracking and management.
+
 ## Strategy
 This project implements a data-driven strategy to allocate investment across various cryptocurrencies based on three key factors: **Market Cap**, **Price Change**, and **Price Trend (Slope)**. The strategy aims to maximize returns by considering each cryptocurrency's market dominance, recent performance, and momentum.
 
