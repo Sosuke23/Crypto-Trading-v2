@@ -13,7 +13,7 @@ client = MongoClient(MONGODB_URI)
 db = client.sample_trades
 
 # Get reference to 'investment' collection
-assets_collection = db.investment
+investment_collection = db.investment
 
 requests = requests.get('http://127.0.0.1:8000/tickers')
 
@@ -33,6 +33,6 @@ for key in data.keys():
 
     investment.append(invest)
 
-result = assets_collection.insert_many(investment)
+result = investment_collection.insert_many(investment)
 
 client.close()
